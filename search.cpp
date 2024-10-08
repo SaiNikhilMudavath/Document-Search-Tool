@@ -77,6 +77,7 @@ Node* SearchEngine::search(string pattern, int& n_matches) //modified int& n_mat
 {
     // Implement your function here 
     Node* root=nullptr;
+    setter(pattern);
     for(int p=0;p<sentences.size();p++)
     {
         
