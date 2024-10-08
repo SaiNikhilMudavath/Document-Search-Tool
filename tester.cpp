@@ -121,7 +121,8 @@ int main() {
     */
     int n_matches=0;
     string pattern="";
-    std::getline(cin,pattern);
+    cout<<"enter the pattern to match: ";
+    cin>>pattern;
     Node* ans=s.search(pattern,n_matches);
     cout<<"information of sentences containing the match of the pattern:"<<endl;
     while(ans)
